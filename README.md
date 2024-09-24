@@ -23,6 +23,10 @@ Adicionar o arquivo criado no repositório local para a area de STAGING (o arqui
 ### git add README.md (para um arquivo)
 ### git add . (para todos os arquivos)
 
-Fazer o commit, ou seja, persistir o arquvo no repositório do github (colocar um indicação de quem criou o arquivo)
-### git commit -m "MacMar adicionou o arquivo na branch"
+Fazer o commit representa um conjunto de alterações em um ponto específico da história do seu projeto, registra apenas as alterações adicionadas aso índice de preparação.
+o comando -m permite inserir a mensagem de commit diretamente na linha de comando
+### git commit -m "MacMar adicionou o arquivo README.md na branch"
 
+Enviar os commits locais, para o repositório remoto no github
+### git push <remote> <branch>
+### git push origin 1.0
